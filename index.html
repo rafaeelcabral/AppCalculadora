@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercício 4</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div id="container">
+            <div id="calculadora">
+
+                <div>
+                    <input id="visor" disabled="disabled" value="0"></input>
+                </div>
+
+                <div id="linha1">
+                    <button onclick="apertouBotaoOperacional('*')"> x </button>
+                    <button onclick="apertouBotaoOperacional('/')"> / </button>
+                    <button onclick="apertouBotaoOperacional('-')"> - </button>
+                    <button onclick="apertouBotaoOperacional('+')"> + </button>
+                </div>
+
+                <div id="linha2">
+                    <button onclick="apertouBotao(7)"> 7 </button>
+                    <button onclick="apertouBotao(8)"> 8 </button>
+                    <button onclick="apertouBotao(9)"> 9 </button>
+                </div>
+
+                <div id="linha3">
+                    <button onclick="apertouBotao(4)"> 4 </button>
+                    <button onclick="apertouBotao(5)"> 5 </button>
+                    <button onclick="apertouBotao(6)"> 6 </button>
+                </div>
+
+                <div id="linha4">
+                    <button onclick="apertouBotao(1)"> 1 </button>
+                    <button onclick="apertouBotao(2)"> 2 </button>
+                    <button onclick="apertouBotao(3)"> 3 </button>
+                </div>
+
+                <div id="linha5">
+                    <button onclick="apertouBotao(0)"> 0 </button>
+                    <button onclick="limpar()"> C </button>
+                    <button onclick="calcular()"> = </button>
+                </div>
+
+            </div>
+        </div>    
+
+        <!-- ------------------------------------------------------------------------------------ -->
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
